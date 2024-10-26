@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default remote="git://github.com:lugnberg/manifest.git" revision="master"/>
-
   <!-- You can have as many remote repositories as you like -->
 
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
@@ -18,6 +16,5 @@
   <project name="meta-raspberrypi" revision="refs/heads/styhead"  remote="yocto" path="poky/meta-raspberrypi" />
   <project name="meta-openembedded" revision="refs/heads/styhead"  remote="oe" path="poky/meta-openembedded" />
   <project name="meta-openembedded-core" revision="refs/heads/styhead"  remote="oe-core" path="poky/meta-openembedded-core" />
-
 
 </manifest>
